@@ -27,7 +27,7 @@
           <constraintValueType>1</constraintValueType>
           <factField>age</factField>
           <fieldType>Integer</fieldType>
-          <operator></operator>
+          <operator>==</operator>
           <parameters/>
           <binding></binding>
         </condition-column52>
@@ -38,7 +38,7 @@
           <constraintValueType>1</constraintValueType>
           <factField>deposit</factField>
           <fieldType>Integer</fieldType>
-          <operator></operator>
+          <operator>==</operator>
           <parameters/>
           <binding></binding>
         </condition-column52>
@@ -49,7 +49,7 @@
           <constraintValueType>1</constraintValueType>
           <factField>amount</factField>
           <fieldType>Integer</fieldType>
-          <operator></operator>
+          <operator>==</operator>
           <parameters/>
           <binding></binding>
         </condition-column52>
@@ -68,7 +68,7 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>100</width>
+      <width>187</width>
       <header>Approved?</header>
       <boundName>LoanApplication</boundName>
       <factField>isApproved</factField>
@@ -129,18 +129,18 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&gt;=20</valueString>
-        <dataType>STRING</dataType>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&lt;1000</valueString>
-        <dataType>STRING</dataType>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&lt;=2000</valueString>
-        <dataType>STRING</dataType>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -168,18 +168,18 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&gt;=20</valueString>
-        <dataType>STRING</dataType>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&lt;1000</valueString>
-        <dataType>STRING</dataType>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&gt;2000</valueString>
-        <dataType>STRING</dataType>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -207,18 +207,18 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&gt;=20</valueString>
-        <dataType>STRING</dataType>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&gt;=1000</valueString>
-        <dataType>STRING</dataType>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&lt;=10000</valueString>
-        <dataType>STRING</dataType>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -246,18 +246,18 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&gt;=20</valueString>
-        <dataType>STRING</dataType>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&gt;=1000</valueString>
-        <dataType>STRING</dataType>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&gt;10000</valueString>
-        <dataType>STRING</dataType>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -285,18 +285,18 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&lt;20</valueString>
-        <dataType>STRING</dataType>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>-</valueString>
-        <dataType>STRING</dataType>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>-</valueString>
-        <dataType>STRING</dataType>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>

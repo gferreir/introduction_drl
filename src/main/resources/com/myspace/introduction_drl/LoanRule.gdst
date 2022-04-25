@@ -14,68 +14,8 @@
   </ruleNameColumn>
   <metadataCols/>
   <attributeCols/>
-  <conditionPatterns>
-    <Pattern52>
-      <factType>loanApplication</factType>
-      <boundName>LoanApplication</boundName>
-      <isNegated>false</isNegated>
-      <conditions>
-        <condition-column52>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>Age</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>age</factField>
-          <fieldType>Integer</fieldType>
-          <operator>==</operator>
-          <parameters/>
-          <binding></binding>
-        </condition-column52>
-        <condition-column52>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>Deposit</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>deposit</factField>
-          <fieldType>Integer</fieldType>
-          <operator>==</operator>
-          <parameters/>
-          <binding></binding>
-        </condition-column52>
-        <condition-column52>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>Amount</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>amount</factField>
-          <fieldType>Integer</fieldType>
-          <operator>==</operator>
-          <parameters/>
-          <binding></binding>
-        </condition-column52>
-      </conditions>
-      <window>
-        <parameters/>
-      </window>
-      <entryPointName></entryPointName>
-    </Pattern52>
-  </conditionPatterns>
-  <actionCols>
-    <set-field-col52>
-      <typedDefaultValue>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </typedDefaultValue>
-      <hideColumn>false</hideColumn>
-      <width>187</width>
-      <header>Approved?</header>
-      <boundName>LoanApplication</boundName>
-      <factField>isApproved</factField>
-      <type>Boolean</type>
-      <update>false</update>
-    </set-field-col52>
-  </actionCols>
+  <conditionPatterns/>
+  <actionCols/>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
       <acceptedTypes>
@@ -128,27 +68,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -165,27 +84,6 @@
       <value>
         <valueString></valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>
@@ -206,27 +104,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -245,27 +122,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -282,27 +138,6 @@
       <value>
         <valueString></valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>

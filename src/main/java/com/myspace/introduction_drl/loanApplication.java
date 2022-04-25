@@ -6,12 +6,44 @@ package com.myspace.introduction_drl;
 
 public class loanApplication implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public loanApplication() {
-    }
+	private java.lang.Integer age;
+	private java.lang.Integer deposit;
+	private java.lang.Integer amount;
 
+	public loanApplication() {
+	}
 
+	public java.lang.Integer getAge() {
+		return this.age;
+	}
 
+	public void setAge(java.lang.Integer age) {
+		this.age = age;
+	}
+
+	public java.lang.Integer getDeposit() {
+		return this.deposit;
+	}
+
+	public void setDeposit(java.lang.Integer deposit) {
+		this.deposit = deposit;
+	}
+
+	public java.lang.Integer getAmount() {
+		return this.amount;
+	}
+
+	public void setAmount(java.lang.Integer amount) {
+		this.amount = amount;
+	}
+
+	public loanApplication(java.lang.Integer age, java.lang.Integer deposit,
+			java.lang.Integer amount) {
+		this.age = age;
+		this.deposit = deposit;
+		this.amount = amount;
+	}
 
 }

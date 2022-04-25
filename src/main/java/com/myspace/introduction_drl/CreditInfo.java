@@ -10,6 +10,8 @@ public class CreditInfo implements java.io.Serializable {
 
 	private java.lang.String creditLevel;
 
+	private java.lang.Integer timeInThatLevel;
+
 	public CreditInfo() {
 	}
 
@@ -21,8 +23,18 @@ public class CreditInfo implements java.io.Serializable {
 		this.creditLevel = creditLevel;
 	}
 
-	public CreditInfo(java.lang.String creditLevel) {
+	public java.lang.Integer getTimeInThatLevel() {
+		return this.timeInThatLevel;
+	}
+
+	public void setTimeInThatLevel(java.lang.Integer timeInThatLevel) {
+		this.timeInThatLevel = timeInThatLevel;
+	}
+
+	public CreditInfo(java.lang.String creditLevel,
+			java.lang.Integer timeInThatLevel) {
 		this.creditLevel = creditLevel;
+		this.timeInThatLevel = timeInThatLevel;
 	}
 
 }

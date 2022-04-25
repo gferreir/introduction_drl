@@ -6,12 +6,33 @@ package com.myspace.introduction_drl;
 
 public class Customer implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Customer() {
-    }
+	private java.lang.String customerType;
+	private java.lang.Integer years;
 
+	public Customer() {
+	}
 
+	public java.lang.String getCustomerType() {
+		return this.customerType;
+	}
 
+	public void setCustomerType(java.lang.String customerType) {
+		this.customerType = customerType;
+	}
+
+	public java.lang.Integer getYears() {
+		return this.years;
+	}
+
+	public void setYears(java.lang.Integer years) {
+		this.years = years;
+	}
+
+	public Customer(java.lang.String customerType, java.lang.Integer years) {
+		this.customerType = customerType;
+		this.years = years;
+	}
 
 }

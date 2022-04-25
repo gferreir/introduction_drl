@@ -2,20 +2,80 @@
   <tableName>LoanRule</tableName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
-    <width>-1</width>
+    <width>50</width>
   </rowNumberCol>
   <descriptionCol>
     <hideColumn>false</hideColumn>
-    <width>-1</width>
+    <width>150</width>
   </descriptionCol>
   <ruleNameColumn>
     <hideColumn>true</hideColumn>
-    <width>-1</width>
+    <width>150</width>
   </ruleNameColumn>
   <metadataCols/>
   <attributeCols/>
-  <conditionPatterns/>
-  <actionCols/>
+  <conditionPatterns>
+    <Pattern52>
+      <factType>loanApplication</factType>
+      <boundName>LoanApplication</boundName>
+      <isNegated>false</isNegated>
+      <conditions>
+        <condition-column52>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>Age</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>age</factField>
+          <fieldType>Integer</fieldType>
+          <operator></operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+        <condition-column52>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>Deposit</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>deposit</factField>
+          <fieldType>Integer</fieldType>
+          <operator></operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+        <condition-column52>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>Amount</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>amount</factField>
+          <fieldType>Integer</fieldType>
+          <operator></operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+      </conditions>
+      <window>
+        <parameters/>
+      </window>
+      <entryPointName></entryPointName>
+    </Pattern52>
+  </conditionPatterns>
+  <actionCols>
+    <set-field-col52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <header>Approved?</header>
+      <boundName>LoanApplication</boundName>
+      <factField>isApproved</factField>
+      <type>Boolean</type>
+      <update>false</update>
+    </set-field-col52>
+  </actionCols>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
       <acceptedTypes>

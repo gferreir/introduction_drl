@@ -12,6 +12,8 @@ public class loanApplication implements java.io.Serializable {
 	private java.lang.Integer deposit;
 	private java.lang.Integer amount;
 
+	private java.lang.Boolean isApproved;
+
 	public loanApplication() {
 	}
 
@@ -39,11 +41,20 @@ public class loanApplication implements java.io.Serializable {
 		this.amount = amount;
 	}
 
+	public java.lang.Boolean getIsApproved() {
+		return this.isApproved;
+	}
+
+	public void setIsApproved(java.lang.Boolean isApproved) {
+		this.isApproved = isApproved;
+	}
+
 	public loanApplication(java.lang.Integer age, java.lang.Integer deposit,
-			java.lang.Integer amount) {
+			java.lang.Integer amount, java.lang.Boolean isApproved) {
 		this.age = age;
 		this.deposit = deposit;
 		this.amount = amount;
+		this.isApproved = isApproved;
 	}
 
 }

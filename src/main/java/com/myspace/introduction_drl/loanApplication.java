@@ -9,10 +9,11 @@ public class loanApplication implements java.io.Serializable {
 	static final long serialVersionUID = 1L;
 
 	private java.lang.Integer age;
-	private java.lang.Integer deposit;
-	private java.lang.Integer amount;
-
 	private java.lang.Boolean isApproved;
+
+	private java.lang.Integer salary;
+
+	private java.lang.Integer requestedAmount;
 
 	public loanApplication() {
 	}
@@ -25,22 +26,6 @@ public class loanApplication implements java.io.Serializable {
 		this.age = age;
 	}
 
-	public java.lang.Integer getDeposit() {
-		return this.deposit;
-	}
-
-	public void setDeposit(java.lang.Integer deposit) {
-		this.deposit = deposit;
-	}
-
-	public java.lang.Integer getAmount() {
-		return this.amount;
-	}
-
-	public void setAmount(java.lang.Integer amount) {
-		this.amount = amount;
-	}
-
 	public java.lang.Boolean getIsApproved() {
 		return this.isApproved;
 	}
@@ -49,12 +34,28 @@ public class loanApplication implements java.io.Serializable {
 		this.isApproved = isApproved;
 	}
 
-	public loanApplication(java.lang.Integer age, java.lang.Integer deposit,
-			java.lang.Integer amount, java.lang.Boolean isApproved) {
+	public java.lang.Integer getSalary() {
+		return this.salary;
+	}
+
+	public void setSalary(java.lang.Integer salary) {
+		this.salary = salary;
+	}
+
+	public java.lang.Integer getRequestedAmount() {
+		return this.requestedAmount;
+	}
+
+	public void setRequestedAmount(java.lang.Integer requestedAmount) {
+		this.requestedAmount = requestedAmount;
+	}
+
+	public loanApplication(java.lang.Integer age, java.lang.Boolean isApproved,
+			java.lang.Integer salary, java.lang.Integer requestedAmount) {
 		this.age = age;
-		this.deposit = deposit;
-		this.amount = amount;
 		this.isApproved = isApproved;
+		this.salary = salary;
+		this.requestedAmount = requestedAmount;
 	}
 
 }

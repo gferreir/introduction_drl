@@ -11,6 +11,8 @@ public class Customer implements java.io.Serializable {
 	private java.lang.String customerType;
 	private java.lang.Integer years;
 
+	private java.lang.Integer discount;
+
 	public Customer() {
 	}
 
@@ -30,9 +32,19 @@ public class Customer implements java.io.Serializable {
 		this.years = years;
 	}
 
-	public Customer(java.lang.String customerType, java.lang.Integer years) {
+	public java.lang.Integer getDiscount() {
+		return this.discount;
+	}
+
+	public void setDiscount(java.lang.Integer discount) {
+		this.discount = discount;
+	}
+
+	public Customer(java.lang.String customerType, java.lang.Integer years,
+			java.lang.Integer discount) {
 		this.customerType = customerType;
 		this.years = years;
+		this.discount = discount;
 	}
 
 }

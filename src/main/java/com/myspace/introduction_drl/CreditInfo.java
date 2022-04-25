@@ -6,12 +6,23 @@ package com.myspace.introduction_drl;
 
 public class CreditInfo implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public CreditInfo() {
-    }
+	private java.lang.String creditLevel;
 
+	public CreditInfo() {
+	}
 
+	public java.lang.String getCreditLevel() {
+		return this.creditLevel;
+	}
 
+	public void setCreditLevel(java.lang.String creditLevel) {
+		this.creditLevel = creditLevel;
+	}
+
+	public CreditInfo(java.lang.String creditLevel) {
+		this.creditLevel = creditLevel;
+	}
 
 }

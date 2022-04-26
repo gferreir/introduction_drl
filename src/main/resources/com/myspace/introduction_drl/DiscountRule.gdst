@@ -48,7 +48,7 @@
           <constraintValueType>1</constraintValueType>
           <factField>years</factField>
           <fieldType>Integer</fieldType>
-          <operator>&gt;=</operator>
+          <operator>&gt;</operator>
           <parameters/>
           <binding></binding>
         </condition-column52>
@@ -64,7 +64,7 @@
           <constraintValueType>1</constraintValueType>
           <factField>years</factField>
           <fieldType>Integer</fieldType>
-          <operator>&lt;</operator>
+          <operator>&lt;=</operator>
           <parameters/>
           <binding></binding>
         </condition-column52>
@@ -139,7 +139,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>Rule 1</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -180,7 +180,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>Rule 2</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -221,7 +221,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>Rule 3</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -262,7 +262,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>Rule 4</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>

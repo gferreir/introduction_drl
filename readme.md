@@ -446,8 +446,78 @@ Para testar apenas uma regra que não esteja inserida em um processo, precisarem
 
 ![](images/swagger_result_rule1.png)
 
-8. Tente novamente porém alterando os valores do JSON no passo de número `5` e verifique o resultado da regra.
+Outros payloads
+===============================
 
+Tente novamente porém alterando os valores do JSON no passo de número `5` e verifique o resultado da regra.
+
+* Regra 2 da Decision Table:
+
+```json
+{
+  "commands": [
+    {
+      "insert": {
+        "out-identifier": "obj",
+        "object": {
+          "com.myspace.introduction_drl.Customer": {
+            "customerType": "INDIVIDUAL",
+            "years": 5
+          }
+        }
+      }
+    },
+    {
+      "fire-all-rules": {}
+    }
+  ]
+}
+```
+* Regra 3 da decision Table
+
+```json
+{
+  "commands": [
+    {
+      "insert": {
+        "out-identifier": "obj",
+        "object": {
+          "com.myspace.introduction_drl.Customer": {
+            "customerType": "INDIVIDUAL",
+            "years": 15
+          }
+        }
+      }
+    },
+    {
+      "fire-all-rules": {}
+    }
+  ]
+}
+```
+
+* Regra 4 da decision Table
+
+```json
+{
+  "commands": [
+    {
+      "insert": {
+        "out-identifier": "obj",
+        "object": {
+          "com.myspace.introduction_drl.Customer": {
+            "customerType": "BUSINESS",
+            "years": 20
+          }
+        }
+      }
+    },
+    {
+      "fire-all-rules": {}
+    }
+  ]
+}
+```
 Projeto Completo
 ===============================
 

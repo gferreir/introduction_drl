@@ -408,9 +408,7 @@ Para testar apenas uma regra que não esteja inserida em um processo, precisarem
 
 ![](images/swagger_endpoint.png)
 
-4. Clique em **Try it out**. No campo **containerId** insira o seguinte valor dependendo do seu ambiente (Local ou Cloud)
-  * Para ambiente Local: `Introduction_DRL_1.0.0-SNAPSHOT`
-  * Para ambiente Cloud:
+4. Clique em **Try it out**. No campo **containerId** insira o seguinte valor `Introduction_DRL_1.0.0-SNAPSHOT`
 
 5. No campo **Body** acrescente o seguinte valor:
 
@@ -449,3 +447,8 @@ Para testar apenas uma regra que não esteja inserida em um processo, precisarem
 ![](images/swagger_result_rule1.png)
 
 8. Tente novamente porém alterando os valores do JSON no passo de número `5` e verifique o resultado da regra.
+
+Projeto Completo
+===============================
+
+Caso queira ver o resultado final, apenas importe esse repositório no **RHPAM** e faça o deploy.
